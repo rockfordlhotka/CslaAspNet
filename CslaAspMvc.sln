@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaAspMvc", "CslaAspMvc\CslaAspMvc.csproj", "{A6021BC4-3AB5-4E5E-A839-D83AFC3C87A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csla", "..\rdl\csla\Source\Csla\Csla.csproj", "{9F9E2068-0349-4976-0D36-8A22B237E2A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csla.Web", "..\rdl\csla\Source\Csla.Web\Csla.Web.csproj", "{58A0687C-46EA-8C99-16EE-CF49A4F32FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csla.Web.Mvc5-Net4.6", "..\rdl\csla\Source\Csla.Web.Mvc5.Net4.6\Csla.Web.Mvc5-Net4.6.csproj", "{95C4067A-685A-2967-B0B5-7D0A4A42F2C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6021BC4-3AB5-4E5E-A839-D83AFC3C87A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6021BC4-3AB5-4E5E-A839-D83AFC3C87A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6021BC4-3AB5-4E5E-A839-D83AFC3C87A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6021BC4-3AB5-4E5E-A839-D83AFC3C87A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9E2068-0349-4976-0D36-8A22B237E2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9E2068-0349-4976-0D36-8A22B237E2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9E2068-0349-4976-0D36-8A22B237E2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9E2068-0349-4976-0D36-8A22B237E2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A0687C-46EA-8C99-16EE-CF49A4F32FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A0687C-46EA-8C99-16EE-CF49A4F32FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A0687C-46EA-8C99-16EE-CF49A4F32FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A0687C-46EA-8C99-16EE-CF49A4F32FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C4067A-685A-2967-B0B5-7D0A4A42F2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C4067A-685A-2967-B0B5-7D0A4A42F2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C4067A-685A-2967-B0B5-7D0A4A42F2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C4067A-685A-2967-B0B5-7D0A4A42F2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A69DB03-6A54-47B3-89D0-004D7C7A1FAF}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\rdl\csla\Source\Csla.Web.Mvc.Shared\Csla.Web.Mvc.Shared.projitems*{95c4067a-685a-2967-b0b5-7d0a4a42f2c4}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
